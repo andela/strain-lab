@@ -1,20 +1,23 @@
-Bob answers 'Sure.' if you ask him a question.
+For example, given the collection of numbers:
 
-He answers 'Whoa, chill out!' if you yell at him.
+- 1, 2, 3, 4, 5
 
-He says 'Fine. Be that way!' if you address him without actually saying
-anything.
+And the predicate:
 
-He answers 'Whatever.' to anything else.
+- is the number even?
 
-## Instructions
+Then your `keep` operation should produce:
 
-Remember that passing code is just the first step. The goal is to work
-towards a solution that is as readable and expressive as you can make
-it.
+- 2, 4
 
-Please make your solution as general as possible. Good code doesn't just
-pass the test suite, it works with any input that fits the
-specification.
+While your `discard` operation should produce:
 
-Have fun!
+- 1, 3, 5
+
+Note that the union of `keep` and `discard` is all the elements.
+
+## Restrictions
+
+Keep your hands off that filter/reject/whatchamacallit functionality
+provided by your standard library!  Solve this one yourself using other
+basic tools instead.
